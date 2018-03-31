@@ -1,0 +1,7 @@
+c:\users\françois-xavier\source\repos\ProjetLPExempleConsole\ProjetLPExempleConsole\bin\Debug\ProjetLPExempleConsole.exe.config
+c:\users\françois-xavier\source\repos\ProjetLPExempleConsole\ProjetLPExempleConsole\bin\Debug\ProjetLPExempleConsole.exe
+c:\users\françois-xavier\source\repos\ProjetLPExempleConsole\ProjetLPExempleConsole\bin\Debug\ProjetLPExempleConsole.pdb
+c:\users\françois-xavier\source\repos\ProjetLPExempleConsole\ProjetLPExempleConsole\obj\Debug\ProjetLPExempleConsole.csprojResolveAssemblyReference.cache
+c:\users\françois-xavier\source\repos\ProjetLPExempleConsole\ProjetLPExempleConsole\obj\Debug\ProjetLPExempleConsole.csproj.CoreCompileInputs.cache
+c:\users\françois-xavier\source\repos\ProjetLPExempleConsole\ProjetLPExempleConsole\obj\Debug\ProjetLPExempleConsole.exe
+c:\users\françois-xavier\source\repos\ProjetLPExempleConsole\ProjetLPExempleConsole\obj\Debug\ProjetLPExempleConsole.pdb
