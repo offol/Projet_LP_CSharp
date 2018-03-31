@@ -5,3 +5,10 @@ c:\users\françois-xavier\source\repos\ProjetLPExempleConsole\ProjetLPExempleCon
 c:\users\françois-xavier\source\repos\ProjetLPExempleConsole\ProjetLPExempleConsole\obj\Debug\ProjetLPExempleConsole.csproj.CoreCompileInputs.cache
 c:\users\françois-xavier\source\repos\ProjetLPExempleConsole\ProjetLPExempleConsole\obj\Debug\ProjetLPExempleConsole.exe
 c:\users\françois-xavier\source\repos\ProjetLPExempleConsole\ProjetLPExempleConsole\obj\Debug\ProjetLPExempleConsole.pdb
+C:\Users\François-Xavier\Documents\GitHub\Projet_LP_CSharp\ProjetLPExempleConsole\ProjetLPExempleConsole\bin\Debug\ProjetLPExempleConsole.exe.config
+C:\Users\François-Xavier\Documents\GitHub\Projet_LP_CSharp\ProjetLPExempleConsole\ProjetLPExempleConsole\bin\Debug\ProjetLPExempleConsole.exe
+C:\Users\François-Xavier\Documents\GitHub\Projet_LP_CSharp\ProjetLPExempleConsole\ProjetLPExempleConsole\bin\Debug\ProjetLPExempleConsole.pdb
+C:\Users\François-Xavier\Documents\GitHub\Projet_LP_CSharp\ProjetLPExempleConsole\ProjetLPExempleConsole\obj\Debug\ProjetLPExempleConsole.csprojResolveAssemblyReference.cache
+C:\Users\François-Xavier\Documents\GitHub\Projet_LP_CSharp\ProjetLPExempleConsole\ProjetLPExempleConsole\obj\Debug\ProjetLPExempleConsole.csproj.CoreCompileInputs.cache
+C:\Users\François-Xavier\Documents\GitHub\Projet_LP_CSharp\ProjetLPExempleConsole\ProjetLPExempleConsole\obj\Debug\ProjetLPExempleConsole.exe
+C:\Users\François-Xavier\Documents\GitHub\Projet_LP_CSharp\ProjetLPExempleConsole\ProjetLPExempleConsole\obj\Debug\ProjetLPExempleConsole.pdb
