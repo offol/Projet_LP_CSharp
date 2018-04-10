@@ -7,22 +7,23 @@ using System.Threading.Tasks;
 
 namespace ProjetLPExempleConsole
 {
-    public class Section_Critique
+    public static class Section_Critique
     {
         // Exemple de lock**********************************************************
         //Témoin du lock
         private static Object _lock = new object();
 
-        private static bool _quitter = false;
+        public static bool _quitter = false;
 
-        public void Exemple_lock()
+        public static void Exemple_lock()
         {
 
             while (!_quitter)
             {
                 lock (_lock)
                 {
-                    //code
+                    Console.WriteLine("Passage dans le lock");
+                    Console.WriteLine("Thread #: " + Thread.CurrentThread.ManagedThreadId + " sort");
                 }
 
                 Thread.Sleep(250);
@@ -34,13 +35,15 @@ namespace ProjetLPExempleConsole
         //Exemple de Mutex ******************************************************
         private static Mutex _mux = new Mutex();
 
-        public void Exemple_Mutex()
+        public static void Exemple_Mutex()
         {
             while (!_quitter)
             {
                 _mux.WaitOne();
 
-                //code
+
+                Console.WriteLine("Passage dans le Mutex");
+                Console.WriteLine("Thread #: " + Thread.CurrentThread.ManagedThreadId + " sort");
 
                 _mux.ReleaseMutex();
 
@@ -52,15 +55,19 @@ namespace ProjetLPExempleConsole
         //Exemple de Semaphore *********************************************
 
         //le 3 signifie que trois threads peuvent passer en même temps
-        private SemaphoreSlim _semaph = new SemaphoreSlim(3);
+        private static SemaphoreSlim _semaph = new SemaphoreSlim(2);
 
-        public void Exemple_Semaphore()
+        public  static void Exemple_Semaphore()
         {
-            _semaph.Wait();
+            while (!_quitter)
+            {
+                _semaph.Wait();
 
-            //code
+                Console.WriteLine("Passage dans la Semaphore");
+                Console.WriteLine("Thread #: " + Thread.CurrentThread.ManagedThreadId + " sort");
 
-            _semaph.Release();
+                _semaph.Release();
+            }
         }
         //********************************************************************
     }

@@ -19,6 +19,9 @@ namespace ProjetLPExempleConsole
             Console.WriteLine("3. Exemple ForEach");
             Console.WriteLine("4. Exemple For");
             Console.WriteLine("5. Exemple PLinq");
+            Console.WriteLine("6. Exemple Lock");
+            Console.WriteLine("7. Exemple Mutex");
+            Console.WriteLine("8. Exemple Semaphore");
             Console.WriteLine("Q. Exit");
 
             while (!_quitter)
@@ -57,6 +60,63 @@ namespace ProjetLPExempleConsole
                     {
                         //exemple plinq
                         Exemple_Parallel.Exemple_plinq();
+                    }
+                    else if(Int32.Parse(cki.KeyChar.ToString()) == 6)
+                    {
+                        Console.WriteLine("Début Lock");
+                        //Exemple Lock
+                        Thread th1 = new Thread(Section_Critique.Exemple_lock);
+                        th1.Start();
+
+                        Thread th2 = new Thread(Section_Critique.Exemple_lock);
+                        th2.Start();
+
+                        Thread th3 = new Thread(Section_Critique.Exemple_lock);
+                        th3.Start();
+
+                        Thread.Sleep(3000);
+
+                        Section_Critique._quitter = true;
+
+                        Console.WriteLine("Fin Exemple Lock");
+                    }
+                    else if (Int32.Parse(cki.KeyChar.ToString()) == 7)
+                    {
+                        Console.WriteLine("Début Mutex");
+                        //Exemple Lock
+                        Thread th1 = new Thread(Section_Critique.Exemple_Mutex);
+                        th1.Start();
+
+                        Thread th2 = new Thread(Section_Critique.Exemple_Mutex);
+                        th2.Start();
+
+                        Thread th3 = new Thread(Section_Critique.Exemple_Mutex);
+                        th3.Start();
+
+                        Thread.Sleep(3000);
+
+                        Section_Critique._quitter = true;
+
+                        Console.WriteLine("Fin Exemple Mutex");
+                    }
+                    else if (Int32.Parse(cki.KeyChar.ToString()) == 8)
+                    {
+                        Console.WriteLine("Début Semaphore");
+                        //Exemple Lock
+                        Thread th1 = new Thread(Section_Critique.Exemple_Semaphore);
+                        th1.Start();
+
+                        Thread th2 = new Thread(Section_Critique.Exemple_Semaphore);
+                        th2.Start();
+
+                        Thread th3 = new Thread(Section_Critique.Exemple_Semaphore);
+                        th3.Start();
+
+                        Thread.Sleep(1500);
+
+                        Section_Critique._quitter = true;
+
+                        Console.WriteLine("Fin Exemple Semaphore");
                     }
 
 
