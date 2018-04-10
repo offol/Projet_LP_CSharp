@@ -11,14 +11,6 @@ namespace ProjetLPExempleConsole
     {
         private static List<Tuple<double,int>> resultList = new List<Tuple<double, int>>();
 
-        private static List<MonObjet> maliste = new List<MonObjet>()
-        {
-            new MonObjet("Bob", "5 des pedrix", "819-534-6346", 28),
-            new MonObjet("George", "8 rue de quelque chose", "819-234-7653", 108),
-            new MonObjet("Timoter", "19 boulevard de l'épervier", "819-262-4564", 36)
-
-        };
-
         private static List<double> inputList = new List<double>() {
             2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26
         };
